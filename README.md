@@ -17,7 +17,7 @@ A interface fica por sua conta, use a criatividade, desenvolva algo bonito e usu
 ### O que nós esperamos do seu teste
 
 * Ver na solução a utilização do framework VueJS ou ReactJS.
-* Tambér ver a utilização de dependency managers (npm, webpack)
+* Também ver a utilização de dependency managers (npm, webpack)
 * Um HTML escrito da maneira mais semântica possível (HTML5/5.1)
 * CSS3/4 - Com um pré processador de CSS (a escolha fica a seu critério, mas por aqui utilizamos SASS) ou Styled Component
 * Mobile first e layout responsivo

@@ -23,7 +23,7 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 
 
 # COMO EXECUTAR O PROJETO LOCAL:
--> Clone o repositório:
+-> Clone o repositório: <br>
         * git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 -> Instale as dependências do projeto: <br>

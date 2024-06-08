@@ -26,15 +26,15 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 -> Clone o repositório:
         * git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
--> Instale as dependências do projeto:
+-> Instale as dependências do projeto: <br>
         * npm install
 
--> Obtenha o endpoint da API CrudCrud em https://crudcrud.com/   
+-> Obtenha o endpoint da API CrudCrud em https://crudcrud.com/ <br>
         * Crie uma conta (se necessário) e registre seu endpoint personalizado
 
 -> Cole o endpoint obtido no arquivo de configuração do projeto, onde as requisições à API serão feitas.        
 
--> Inicie o servidor de desenvolvimento:
+-> Inicie o servidor de desenvolvimento: <br>
         * npm run serve
 
 -> Abra o navegador e acesse http://localhost:8080(ou a porta que aparecer em seu computador) para ver o projeto em execução.

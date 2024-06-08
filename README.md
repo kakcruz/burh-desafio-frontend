@@ -37,7 +37,7 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 -> Inicie o servidor de desenvolvimento: <br>
         * npm run serve
 
--> Abra o navegador e acesse http://localhost:8080(ou a porta que aparecer em seu computador) para ver o projeto em execução.
+-> Abra o navegador e acesse http://localhost:8080 (ou a porta que aparecer em seu computador) para ver o projeto em execução.
 
 
 

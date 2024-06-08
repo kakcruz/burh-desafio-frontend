@@ -5,8 +5,7 @@
         <!-- Tabela dos livros que já foram lidos -->
         <div class="col-md-12 col-lg-6 mt-5 books-table">
           <h4>Leituras Finalizadas</h4>
-          <div class="border-style">
-            <table class="table border">
+          <table class="table border">
             <thead>
               <tr>
                 <th scope="col">Título</th>
@@ -31,7 +30,6 @@
               </tr>
             </tbody>
           </table>
-          </div>
          
         </div>
         <!-- Tabela dos livros que ainda NÃO foram lidos -->
@@ -112,10 +110,6 @@ h4 {
   &:hover{
       background-color: #c9c0ec;
     }
-}
-
-.border-style{
-  border-radius: 20px solid red;
 }
 
 

@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/scss/variables';
 
 nav {
   height: 237px;

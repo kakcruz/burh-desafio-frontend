@@ -6,7 +6,17 @@ module.exports = defineConfig({
 
 module.exports = {
   devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    css: {
+      extract: {
+        ignoreOrder: true,
+      },
+      loaderOptions: {
+        sass: {
+          additionalData: '@import "@/assets/scss/_variables.scss";',
+        },
+      },
+    },
   }
 };
 

@@ -1,0 +1,105 @@
+[33mcommit d9bb39fdb9b2af13d473c344355d9ebe3e3b61f1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 1db87a9 918b0e1
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Sat Jun 8 13:24:07 2024 -0300
+
+    Mudança no layout da aplicação
+
+[33mcommit 1db87a935a46e84b8bf0e504fa4ba26d21119679[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Sat Jun 8 13:23:19 2024 -0300
+
+    Mudança no layout da aplicação
+
+[33mcommit 918b0e17e6fa8bf51d00d2cfd2f21b5322f33511[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 01:12:38 2024 -0300
+
+    Update README.md
+    
+    Link do projeto hospedado, adicionado ao arquivo.
+
+[33mcommit 37ec9fadb0e6c1470628a45b23ac9dd4a8f74756[m
+Merge: 3887b5f 82030c7
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Sat Jun 8 01:07:42 2024 -0300
+
+    Inserção das instruções do projeto no arquivo Readme
+
+[33mcommit 3887b5fb543b74e4c3ab540c19834e86d7c59c3e[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Sat Jun 8 01:04:36 2024 -0300
+
+    Inserção das instruções do projeto no arquivo Readme
+
+[33mcommit 82030c79192fb2d7b81e818d82be723fda998aff[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 01:02:08 2024 -0300
+
+    Update README.md
+
+[33mcommit ebdb5abd57aab51420764c0c1f9990136b4c383a[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 01:01:36 2024 -0300
+
+    Update README.md
+
+[33mcommit 1f0a7d7e32813ad3d844dca4613a9195bc743087[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 01:01:11 2024 -0300
+
+    Update README.md
+
+[33mcommit 0cc7626d8f612bebafb9dd4905d3572a9966eb33[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 01:00:39 2024 -0300
+
+    Update README.md
+
+[33mcommit eab18d2a833764aa2f1d2dc53508b319e9dca13d[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 00:59:59 2024 -0300
+
+    Update README.md
+
+[33mcommit 110c0159da8dfd3c3838fe9652fca0b30e17d64a[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 00:59:09 2024 -0300
+
+    Update README.md
+
+[33mcommit 74a655b19e92cf149d825620558d7ae8eb29bd7a[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Sat Jun 8 00:58:13 2024 -0300
+
+    Update README.md
+
+[33mcommit 8227cabd122ea14eb9e78c1dd2320e8cc216e8ca[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Sat Jun 8 00:16:00 2024 -0300
+
+    Ajuste no layout. Dimensões mobile e tablet
+
+[33mcommit 31e18bcb0e1d70a0722a06f520538caa298bb83b[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Fri Jun 7 23:11:19 2024 -0300
+
+    confirmado funcionamento da validação
+
+[33mcommit 2feea1f962b9b193013322e5df72fd76723970c1[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Fri Jun 7 23:08:48 2024 -0300
+
+    configuração do fork no projeto
+
+[33mcommit 787f8a0a2480d9bb5e24e8d4649f28a95d861ce6[m
+Author: Karoline Cruz <43484436+kakcruz@users.noreply.github.com>
+Date:   Fri Jun 7 22:43:16 2024 -0300
+
+    Update README.md
+
+[33mcommit 87f4aeeca1d212e55f6ed10aeae8621fc6851999[m
+Author: kakcruz <karolinecsantos@hotmail.com>
+Date:   Fri Jun 7 22:20:42 2024 -0300
+
+    Criação do vueRouter e validação do form

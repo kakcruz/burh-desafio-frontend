@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="">
-      <h1>Gerêncie sua leitura</h1>
+      <h1>Organize suas Leituras</h1>
       <p>
         Torne seu hábito de leitura mais efetivo utilizando <br />
         o gerenciador abaixo

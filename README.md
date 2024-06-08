@@ -39,6 +39,8 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 
 -> Abra o navegador e acesse http://localhost:8080 (ou a porta que aparecer em seu computador) para ver o projeto em execução.
 
+# VERCEL
+link do projeto hospedado: https://manager-books.vercel.app/
 
 
 # PERFIL DO BURH

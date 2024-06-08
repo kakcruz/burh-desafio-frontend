@@ -9,7 +9,9 @@
       >
         <!-- campo Título do Livro -->
         <div class="col-md-6 col-lg-6 title-field">
-          <label for="validationCustom01" class="form-label">Título do Livro</label>
+          <label for="validationCustom01" class="form-label"
+            >Título do Livro</label
+          >
           <input
             type="text"
             class="form-control"
@@ -19,11 +21,15 @@
             required
             placeholder="ex: O Pequeno Príncipe"
           />
-          <div v-if="isTitleInvalid" class="invalid-feedback">O campo Título é obrigatório!</div>
+          <div v-if="isTitleInvalid" class="invalid-feedback">
+            O campo Título é obrigatório!
+          </div>
         </div>
         <!-- campo Nome do Autor(a) -->
         <div class="col-md-6 col-lg-6 author-field">
-          <label for="validationCustom02" class="form-label">Autor/Autora</label>
+          <label for="validationCustom02" class="form-label"
+            >Autor/Autora</label
+          >
           <input
             type="text"
             class="form-control"
@@ -36,8 +42,10 @@
           <div class="invalid-feedback">O campo Autor é obrigatório!</div>
         </div>
         <!-- campo Data de Publicação -->
-        <div class="col-md-6 col-lg-6 publication-field">
-          <label for="validationCustom03" class="form-label">Ano de publicação</label>
+        <div class="col-md-12 col-lg-6 publication-field">
+          <label for="validationCustom03" class="form-label"
+            >Ano de publicação</label
+          >
           <input
             type="date"
             class="form-control"
@@ -46,10 +54,12 @@
             v-model="newBook.publicationYear"
             required
           />
-          <div class="invalid-feedback">O campo Ano de publicação é obrigatório!</div>
+          <div class="invalid-feedback">
+            O campo Ano de publicação é obrigatório!
+          </div>
         </div>
         <!-- Botões radios -->
-        <div class="d-flex col-md-6">
+        <div class="d-flex col-md-12 col-lg-6 btn-radio">
           <div class="form-check ms-2">
             <input
               class="form-check-input"
@@ -59,7 +69,9 @@
               value="read"
               v-model="newBook.status"
             />
-            <label class="form-check-label" for="flexRadioDefault1">Leituras Finalizadas</label>
+            <label class="form-check-label" for="flexRadioDefault1"
+              >Leituras Finalizadas</label
+            >
           </div>
           <div class="form-check ms-4">
             <input
@@ -71,7 +83,9 @@
               v-model="newBook.status"
               checked
             />
-            <label class="form-check-label" for="flexRadioDefault2">Livros para a Lista de Espera</label>
+            <label class="form-check-label" for="flexRadioDefault2"
+              >Livros para a Lista de Espera</label
+            >
           </div>
         </div>
         <div class="col-12 d-flex justify-content-end">
@@ -109,7 +123,9 @@ export default {
       return this.validationErrors.author && !this.newBook.author;
     },
     ispublicationYearInvalid() {
-      return this.validationErrors.publicationYear && !this.newBook.publicationYear;
+      return (
+        this.validationErrors.publicationYear && !this.newBook.publicationYear
+      );
     },
   },
   methods: {
@@ -119,7 +135,11 @@ export default {
       this.validationErrors.author = !this.newBook.author;
       this.validationErrors.publicationYear = !this.newBook.publicationYear;
 
-      if (this.newBook.title && this.newBook.author && this.newBook.publicationYear) {
+      if (
+        this.newBook.title &&
+        this.newBook.author &&
+        this.newBook.publicationYear
+      ) {
         this.addBook(this.newBook)
           .then(() => {
             // Limpa o formulário depois de adicionar o livro
@@ -144,7 +164,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .add-book {
   .form-label {
     font-family: monospace;
@@ -190,10 +210,35 @@ export default {
   .invalid-feedback {
     color: red;
     font-size: 12px;
-    display: none; 
+    display: none;
   }
   .invalid ~ .invalid-feedback {
     display: block;
+  }
+
+  @media screen and (max-width: 575px) {
+    .form-check-label {
+      font-size: 14px !important;
+      margin-top: 2.9rem;
+      font-weight: 600;
+    }
+    .btn-radio{
+      margin-top: 0.3rem;
+      margin-bottom: 1.5rem;
+      justify-content: space-around;
+    }
+  }
+
+  @media screen and (max-width: 991px ){
+    .form-check-label {
+      font-size: 18px;
+      margin-top: 2.7rem;
+    }
+    .btn-radio{
+      margin-top: 0.1rem;
+      margin-bottom: 1rem;
+      justify-content: space-around;
+    }
   }
 }
 </style>

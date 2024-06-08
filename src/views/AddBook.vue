@@ -42,7 +42,7 @@
           <div class="invalid-feedback"><i class="bi bi-exclamation-circle"></i> O campo Autor é obrigatório!</div>
         </div>
         <!-- campo Data da Publicação -->
-        <div class="col-md-12 col-lg-6 publication-field">
+        <div class="col-md-12 col-lg-6 publication-field mt-5">
           <label for="validationCustom03" class="form-label"
             >Data da publicação</label
           >
@@ -59,7 +59,7 @@
           </div>
         </div>
         <!-- Botões radios -->
-        <div class="d-flex col-md-12 col-lg-6 btn-radio">
+        <div class="d-flex col-md-12 col-lg-6 btn-radio mt-5">
           <div class="form-check ms-2">
             <input
               class="form-check-input"
@@ -88,7 +88,7 @@
             >
           </div>
         </div>
-        <div class="col-12 d-flex justify-content-end">
+        <div class="col-12 d-flex mt-5">
           <button class="btn btn-primary" type="submit" alt="botão para adicionar os livros">Adicionar livro</button>
         </div>
       </form>
@@ -166,35 +166,41 @@ export default {
 
 <style lang="scss" scoped>
 .add-book {
+  
   .form-label {
-    font-family: monospace;
+    font-family: $font-primary;
     font-size: 20px;
-    color: #872240;
-    font-weight: 700;
+    color:$primary-color;
+    font-weight: 400;
   }
   input[type="radio"] {
     margin-top: 2.8rem;
-    border-radius: 4px;
     border: 1px solid #c0c5c8;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #c0c5c8;
     &:checked {
-      background-color: #872240;
-      border-color: #872240;
+      background-color:$primary-color;
+      border-color:$primary-color;
       z-index: 99999;
     }
   }
   .form-check-label {
     font-size: 18px;
-    color: #872240;
+    color:$primary-color;
     font-weight: 400;
     margin-top: 2.7rem;
+    font-family: $font-primary;
   }
+  // botão de adicionar livro
   .btn-primary {
-    background-color: #872240;
+    width: 221px;
+    height: 40px;
+    padding: 8px 24px 8px 24px;
+    background-color:$primary-color;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
+    font-family: $font-primary;
     &:hover {
       background-color: #e6a4b8;
       color: black;
@@ -218,20 +224,34 @@ export default {
 
   @media screen and (max-width: 575px) {
     .form-check-label {
-      font-size: 14px !important;
-      margin-top: 2.9rem;
-      font-weight: 600;
+      font-size: 13px !important;
+      margin-top: 2.9rem !important;
+      font-weight: 500 !important;
+      
     }
     .btn-radio{
       margin-top: 0.3rem;
       margin-bottom: 1.5rem;
-      justify-content: space-around;
+      justify-content: space-between !important;
+      
     }
+    
   }
 
   @media screen and (max-width: 991px ){
     .form-check-label {
       font-size: 18px;
+      margin-top: 2.7rem;
+    }
+    .btn-radio{
+      margin-top: 0.1rem;
+      margin-bottom: 1rem;
+      justify-content: space-around;
+    }
+  }
+  @media screen and (min-width: 992px ){
+    .form-check-label {
+      font-size: 15px !important;
       margin-top: 2.7rem;
     }
     .btn-radio{

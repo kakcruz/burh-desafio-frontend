@@ -1,33 +1,45 @@
 <template>
   <div id="app">
-    <h1 class="text-center mt-4">Gerenciador de Livros</h1>
-      <AddBook/>
-      <BookTable/>
+    <nav class="">
+      <h1>Gerêncie sua leitura</h1>
+      <p>
+        Torne seu hábito de leitura mais efetivo utilizando <br />
+        o gerenciador abaixo
+      </p>
+    </nav>
+    <AddBook />
+    <BookTable />
     <router-view />
   </div>
 </template>
 
 <script>
-import AddBook from './views/AddBook.vue';
-import BookTable from './views/BookTable.vue';
+import AddBook from "./views/AddBook.vue";
+import BookTable from "./views/BookTable.vue";
 
 export default {
-  name: 'App',
-  components:{
+  name: "App",
+  components: {
     AddBook,
     BookTable,
-  }
+  },
 };
 </script>
 
 <style lang="scss">
-h1 {
-  font-family: monospace;
-  color: #872240;
-}
+
 nav {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  height: 237px;
+  font-family: $font-primary;
+  padding: 55px 70px;
+  background-color: #872240;
+  color: white
 }
+h1{
+  font-size: 32px;
+  font-weight: 700;
+}
+p{
+    font-size: 18px;
+  }
 </style>

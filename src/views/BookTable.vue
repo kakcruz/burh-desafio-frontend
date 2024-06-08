@@ -5,7 +5,8 @@
         <!-- Tabela dos livros que já foram lidos -->
         <div class="col-md-12 col-lg-6 mt-5 books-table">
           <h4>Leituras Finalizadas</h4>
-          <table class="table border">
+          <div class="border-style">
+            <table class="table border">
             <thead>
               <tr>
                 <th scope="col">Título</th>
@@ -30,6 +31,8 @@
               </tr>
             </tbody>
           </table>
+          </div>
+         
         </div>
         <!-- Tabela dos livros que ainda NÃO foram lidos -->
         <div class="col-md-12 col-lg-6 mt-5 read-books-table">
@@ -90,14 +93,9 @@ export default {
 <style lang="scss" scoped>
 h4 {
   color: #872240;
-  font-family: monospace;
+  margin-top: 30px;
 }
-tr {
-  font-family: monospace;
-}
-th {
-  color: rgb(80, 76, 76) !important;
-} 
+// botão de deletar
 .btn-danger{
   background-color: #ad4061;
   color: white;
@@ -106,6 +104,7 @@ th {
       background-color: #e6a4b8;
     }
 }
+// botão de editar
 .btn-primary{
   background-color: #7183e9;
   color: white;
@@ -115,7 +114,9 @@ th {
     }
 }
 
-
+.border-style{
+  border-radius: 20px solid red;
+}
 
 
 </style>

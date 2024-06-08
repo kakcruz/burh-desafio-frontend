@@ -9,7 +9,7 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 
 
 # TECNLOGIAS UTILIZADAS:
--> Vue.Js 2
+-> Vue.Js 2 <br>
 -> Axios - para fazer solicitações HTTP
 -> Bootstrap - para estilos
 -> Bootstrap Icons - inserção de icones

@@ -22,7 +22,7 @@
             placeholder="ex: O Pequeno Príncipe"
           />
           <div v-if="isTitleInvalid" class="invalid-feedback">
-            O campo Título é obrigatório!
+            <i class="bi bi-exclamation-circle"></i> O campo Título é obrigatório!
           </div>
         </div>
         <!-- campo Nome do Autor(a) -->
@@ -39,12 +39,12 @@
             required
             placeholder="ex: Antoine de Saint-Exupéry"
           />
-          <div class="invalid-feedback">O campo Autor é obrigatório!</div>
+          <div class="invalid-feedback"><i class="bi bi-exclamation-circle"></i> O campo Autor é obrigatório!</div>
         </div>
-        <!-- campo Data de Publicação -->
+        <!-- campo Data da Publicação -->
         <div class="col-md-12 col-lg-6 publication-field">
           <label for="validationCustom03" class="form-label"
-            >Ano de publicação</label
+            >Data da publicação</label
           >
           <input
             type="date"
@@ -55,7 +55,7 @@
             required
           />
           <div class="invalid-feedback">
-            O campo Ano de publicação é obrigatório!
+            <i class="bi bi-exclamation-circle"></i> O campo Data da publicação é obrigatório!
           </div>
         </div>
         <!-- Botões radios -->
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="col-12 d-flex justify-content-end">
-          <button class="btn btn-primary" type="submit">Adicionar livro</button>
+          <button class="btn btn-primary" type="submit" alt="botão para adicionar os livros">Adicionar livro</button>
         </div>
       </form>
     </div>

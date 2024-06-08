@@ -3,23 +3,23 @@
 Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar sua coleção de livros. Com este gerenciador, você pode adicionar, editar e remover livros da sua biblioteca pessoal, além de manter um registro de quais livros você já leu e quais ainda estão na sua lista de leitura.
 
 # FUNCIONALIDADES:
--> Adicionar livro à lista de leituras futuras ou a lista de livros já lidos.
--> Visualizar à lista de livros já lidos e de leituras futuras
--> Editar ou excluir livros da lista de leituras futuras.
+-> Adicionar livro à lista de leituras futuras ou a lista de livros já lidos. <br>
+-> Visualizar à lista de livros já lidos e de leituras futuras. <br>
+-> Editar ou excluir livros da lista de leituras futuras. <br>
 
 
 # TECNLOGIAS UTILIZADAS:
 -> Vue.Js 2 <br>
--> Axios - para fazer solicitações HTTP
--> Bootstrap - para estilos
--> Bootstrap Icons - inserção de icones
--> Scss - para os estilos css
--> Vercel - para hospedar o projeto
--> Vue Router - navegação entre páginas ou rotas.
--> Vuex - gerenciamento de estado
--> NPM - gerenciador de pacotes para o node.js
--> Vue-validate - seria para a validação do formulario, mas não foi utilizado.
--> API CrudCrud - para a elaboração do CRUD
+-> Axios - para fazer solicitações HTTP <br>
+-> Bootstrap - para estilos <br>
+-> Bootstrap Icons - inserção de icones <br>
+-> Scss - para os estilos css <br>
+-> Vercel - para hospedar o projeto <br>
+-> Vue Router - navegação entre páginas ou rotas <br>
+-> Vuex - gerenciamento de estado <br>
+-> NPM - gerenciador de pacotes para o node.js <br>
+-> Vue-validate - seria para a validação do formulario, mas não foi utilizado <br>
+-> API CrudCrud - para a elaboração do CRUD <br>
 
 
 # COMO EXECUTAR O PROJETO LOCAL:

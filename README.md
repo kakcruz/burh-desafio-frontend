@@ -8,7 +8,7 @@ Uma aplicação simples e intuitiva para ajudar você a organizar e acompanhar s
 -> Editar ou excluir livros da lista de leituras futuras. <br>
 
 
-# TECNLOGIAS UTILIZADAS:
+# TECNOLOGIAS UTILIZADAS:
 -> Vue.Js 2 <br>
 -> Axios - para fazer solicitações HTTP <br>
 -> Bootstrap - para estilos <br>
